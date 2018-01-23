@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>承信通讯录</title>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/mui.indexedlist.css" rel="stylesheet" />
+		<link href="css/demo.css" rel="stylesheet" />
+		<style>
+			html,
+			body {
+				height: 100%;
+				overflow: hidden;
+			}
+			
+			.mui-bar {
+				-webkit-box-shadow: none;
+				box-shadow: none;
+			}
+		</style>
+		<script type="text/javascript">
+			document.addEventListener('plusready', function() {
+				//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+
+			});
+		</script>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">通讯录</h1>
+		</header>
+		<div class="mui-content">
+			<div id='list' class="mui-indexed-list">
+				<div class="mui-indexed-list-search mui-input-row mui-search">
+					<input type="search" class="mui-input-clear mui-indexed-list-search-input" placeholder="搜索联系人">
+				</div>
+				<div class="mui-indexed-list-bar">
+					<a>A</a>
+					<a>B</a>
+					<a>C</a>
+					<a>D</a>
+					<a>E</a>
+					<a>F</a>
+					<a>G</a>
+					<a>H</a>
+					<a>I</a>
+					<a>J</a>
+					<a>K</a>
+					<a>L</a>
+					<a>M</a>
+					<a>N</a>
+					<a>O</a>
+					<a>P</a>
+					<a>Q</a>
+					<a>R</a>
+					<a>S</a>
+					<a>T</a>
+					<a>U</a>
+					<a>V</a>
+					<a>W</a>
+					<a>X</a>
+					<a>Y</a>
+					<a>Z</a>
+				</div>
+				<div class="mui-indexed-list-alert"></div>
+				<div class="mui-indexed-list-inner address_list">
+					<div class="mui-indexed-list-empty-alert">没有数据</div>
+					<div class="mui-table-view color font12">
+						<li data-group="C" class="mui-table-view-divider mui-indexed-list-group">C</li>
+						<a href="tel:13619216507" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>曹巧丽</h2>
+									<p>13619216507</p>
+								</div>
+								<span class="mui-badge">会计</span>
+							</div>
+						</a>
+						<li data-group="J" class="mui-table-view-divider mui-indexed-list-group">J</li>
+						<a href="tel:15029201108" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>巨　明</h2>
+									<p>15029201108</p>
+								</div>
+								<span class="mui-badge">系统分析师</span>
+							</div>
+						</a>
+						<a href="tel:13152036931" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>贾双月</h2>
+									<p>13152036931</p>
+								</div>
+								<span class="mui-badge">产品经理</span>
+							</div>
+						</a>
+						<li data-group="K" class="mui-table-view-divider mui-indexed-list-group">K</li>
+						<a href="tel:18740455509" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>寇梦茜</h2>
+									<p>18740455509</p>
+								</div>
+								<span class="mui-badge">出 纳</span>
+							</div>
+						</a>
+						<a href="tel:17795728508" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>寇中旗</h2>
+									<p>17795728508</p>
+								</div>
+								<span class="mui-badge">.NET开发</span>
+							</div>
+						</a>
+						<li data-group="L" class="mui-table-view-divider mui-indexed-list-group">L</li>
+						<a href="tel:13335432625" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>罗　建</h2>
+									<p>13335432625</p>
+								</div>
+								<span class="mui-badge">副经理</span>
+							</div>
+						</a>
+						<a href="tel:13032959820" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>李雪玲</h2>
+									<p>13032959820</p>
+								</div>
+								<span class="mui-badge">副经理</span>
+							</div>
+						</a>
+						<a href="tel:13319200931" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>李　滨</h2>
+									<p>13319200931</p>
+								</div>
+								<span class="mui-badge">产品总监</span>
+							</div>
+						</a>
+						<a href="tel:15829022905" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>罗文明</h2>
+									<p>15829022905</p>
+								</div>
+								<span class="mui-badge">销售经理</span>
+							</div>
+						</a>
+						<li data-group="Q" class="mui-table-view-divider mui-indexed-list-group">Q</li>
+						<a href="tel:13709299857" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>秦志辉</h2>
+									<p>13709299857</p>
+								</div>
+								<span class="mui-badge">行政司机</span>
+							</div>
+						</a>
+						<a href="tel:18089159527" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>祁云武</h2>
+									<p>18089159527</p>
+								</div>
+								<span class="mui-badge">18089159527</span>
+							</div>
+						</a>
+						<a href="tel:17629202003" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>强　达</h2>
+									<p>17629202003</p>
+								</div>
+								<span class="mui-badge">市场推广专员</span>
+							</div>
+						</a>
+						<li data-group="S" class="mui-table-view-divider mui-indexed-list-group">S</li>
+						<a href="tel:18182500345" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>舒秀梅</h2>
+									<p>18182500345</p>
+								</div>
+								<span class="mui-badge">副总经理</span>
+							</div>
+						</a>
+						<a href="tel:18721608320" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>宋丹丹</h2>
+									<p>18721608320</p>
+								</div>
+								<span class="mui-badge">网页设计师</span>
+							</div>
+						</a>
+						<li data-group="T" class="mui-table-view-divider mui-indexed-list-group">T</li>
+						<a href="tel:18792963676" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>田　赓</h2>
+									<p>18792963676</p>
+								</div>
+								<span class="mui-badge">运营副经理</span>
+							</div>
+						</a>
+						<li data-group="W" class="mui-table-view-divider mui-indexed-list-group">W</li>
+						<a href="tel:18291868573" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>王娣娣</h2>
+									<p>18291868573</p>
+								</div>
+								<span class="mui-badge">测试主管</span>
+							</div>
+						</a>
+						<a href="tel:13572066145" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>王　娣</h2>
+									<p>13572066145</p>
+								</div>
+								<span class="mui-badge">网页设计兼采编</span>
+							</div>
+						</a>
+						<a href="tel:15691810958" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>王军铂</h2>
+									<p>15691810958</p>
+								</div>
+								<span class="mui-badge">销售经理</span>
+							</div>
+						</a>
+						<li data-group="X" class="mui-table-view-divider mui-indexed-list-group">X</li>
+						<a href="tel:13389180906" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>许立新</h2>
+									<p>13389180906</p>
+								</div>
+								<span class="mui-badge">董事长</span>
+							</div>
+						</a>
+						<a href="tel:13572966491" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>谢立华</h2>
+									<p>经 13572966491</p>
+								</div>
+								<span class="mui-badge">经 理</span>
+							</div>
+						</a>
+						<li data-group="Y" class="mui-table-view-divider mui-indexed-list-group">Y</li>
+						<a href="tel:15129080020" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>闫莎莎</h2>
+									<p>15129080020</p>
+								</div>
+								<span class="mui-badge">行政助理</span>
+							</div>
+						</a>
+						<a href="tel:13891983247" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>颜伟荣</h2>
+									<p>13891983247</p>
+								</div>
+								<span class="mui-badge">网络工程师</span>
+							</div>
+						</a>
+						<a href="tel:15094075562" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>杨粉妮</h2>
+									<p>15094075562</p>
+								</div>
+								<span class="mui-badge">项目主管</span>
+							</div>
+						</a>
+						<li data-group="Z" class="mui-table-view-divider mui-indexed-list-group">Z</li>
+						<a href="tel:15353621156" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>赵桂玲</h2>
+									<p>15353621156</p>
+								</div>
+								<span class="mui-badge">经  理</span>
+							</div>
+						</a>
+						<a href="tel:13909253658" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>张　锐</h2>
+									<p>13909253658</p>
+								</div>
+								<span class="mui-badge">经 理</span>
+							</div>
+						</a>
+						<a href="tel:18829355660" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>张 　欢</h2>
+									<p>18829355660</p>
+								</div>
+								<span class="mui-badge">市场推广专员</span>
+							</div>
+						</a>
+						<a href="tel:13991186295" data-value="" data-tags="" class="mui-table-view-cell mui-indexed-list-item" flex="box:first">
+							<i class="mui-inline i_avatar mgr10"></i>
+							<div flex="main:justify">
+								<div>
+									<h2>赵 　智</h2>
+									<p>13991186295</p>
+								</div>
+								<span class="mui-badge">运营经理</span>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script src="js/mui.indexedlist.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+			mui.ready(function() {
+				var header = document.querySelector('header.mui-bar');
+				var list = document.getElementById('list');
+				//calc hieght
+				list.style.height = (document.body.offsetHeight - header.offsetHeight) + 'px';
+				//create
+				window.indexedList = new mui.IndexedList(list);
+			});
+		</script>
+	</body>
+
+</html>
